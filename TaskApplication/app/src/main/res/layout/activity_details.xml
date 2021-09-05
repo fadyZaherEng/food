@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detailsActivity.DetailsActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20ssp"
+        android:id="@+id/Cal_Btn"
+        android:textAlignment="center"
+        android:background="@color/cardview_light_background"
+        />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/TableDetails"
+    android:layout_centerInParent="true"
+/>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.calculateActivity.CalculateActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Amount Per Serving"
+    android:textSize="@dimen/_15ssp"
+    android:textStyle="bold"
+    android:textColor="@color/cardview_dark_background"
+    android:textAllCaps="false"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_5sdp"
+    android:id="@+id/tv_title"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tv_title"
+    android:textAllCaps="false"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="@dimen/_22ssp"
+    android:text="Calories"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_5sdp"
+    android:id="@+id/tv"
+    />
+
+    <TextView
+        android:id="@+id/totalCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@id/tv"
+        android:padding="@dimen/_5sdp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/DetailsCalories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_17ssp"
+        android:textStyle="bold" />
+</RelativeLayout>
